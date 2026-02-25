@@ -1,4 +1,4 @@
-# Bank Deposit Portfolio BI Dashboard
+# Bank Deposit BI Dashboard
 
 ## Concentration, Structure and Dynamics Analysis
 
