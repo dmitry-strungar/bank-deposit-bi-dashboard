@@ -86,6 +86,25 @@ The report consists of four pages:
 
 ---
 
+## Data Model
+
+The data model includes:
+
+- Transaction table (cash inflows and outflows)
+- Client registry with segment, industry and city
+- Currency exchange rate table
+- Calendar table for daily calculations
+
+The model enables:
+
+- Daily balance calculation
+- Interest accrual logic
+- Multi-currency aggregation
+- Dynamic currency conversion
+
+---
+
+
 ## Tech Stack
 
 - Power BI
@@ -94,6 +113,20 @@ The report consists of four pages:
 - Data Modeling
 
 ---
+
+
+## Portfolio Concentration Analysis
+
+The dashboard allows analysis of deposit concentration by:
+
+- Client segment
+- Industry
+- City
+
+Users can identify segments or industries that form the largest share of the portfolio and monitor structural changes over time.
+
+---
+
 
 ## Skills Demonstrated
 
