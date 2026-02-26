@@ -111,6 +111,13 @@ The model enables:
 - Top 3 industries account for 48% of total volume
 - Currency conversion significantly affects ranking positions
 
+- Top-10 clients represent a highly concentrated share of the total deposit portfolio, indicating dependency on large clients
+- Portfolio concentration ratio increased toward the end of the observed period, signaling growing concentration risk
+- Interest income shows a steady upward trend, contributing positively to overall portfolio profitability
+- Average deposit size remained relatively stable with moderate fluctuations, indicating consistent client behavior
+- Inflows and outflows demonstrate cyclical patterns, suggesting seasonality in deposit activity
+- Currency conversion enables accurate cross-currency comparison and reveals the true structure of the consolidated portfolio
+
 ---
 
 
