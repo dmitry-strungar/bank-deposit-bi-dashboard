@@ -104,6 +104,15 @@ The model enables:
 
 ---
 
+## Key Insights
+
+- Moscow holds the largest share of total deposits (17.6%)
+- Novosibirsk has the highest average deposit size
+- Top 3 industries account for 48% of total volume
+- Currency conversion significantly affects ranking positions
+
+---
+
 
 ## Tech Stack
 
