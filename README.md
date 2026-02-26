@@ -136,3 +136,18 @@ Users can identify segments or industries that form the largest share of the por
 - Dynamic currency conversion
 - Data transformation
 - Interactive dashboard design
+
+---
+
+## Dashboard Preview
+
+(Screenshots are available in the /screenshots folder)
+
+---
+
+## File
+
+The Power BI file (.pbix) is included in the repository.
+
+---
+
