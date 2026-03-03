@@ -1,169 +1,114 @@
 # Bank Deposit BI Dashboard
 
-## Concentration, Structure and Dynamics Analysis
+## Обзор проекта
+
+Интерактивный BI-дашборд для анализа депозитного портфеля банка.  
+Проект направлен на оценку структуры вкладов, концентрации, валютной структуры и динамики процентных начислений.
 
 ---
 
-## Project Overview
+## Бизнес-контекст
 
-This project presents a Power BI dashboard developed to analyze the financial results of a bank department responsible for attracting deposits from corporate clients.
+Банк стремится:
 
-The dashboard allows monitoring of deposit inflows, outflows, interest accrual, debt position and average deposit size across different client segments, industries, cities and currencies.
-
----
-
-## Business Context
-
-The bank operates with three corporate client segments:
-
-- Multinational Companies (MNC)
-- Large Business (LB)
-- Government Companies (GC)
-
-The department requires a reporting tool to:
-
-- Monitor attracted and paid funds
-- Calculate daily accrued interest
-- Control deposit portfolio concentration
-- Analyze structure by segment, city and industry
-- Work with multi-currency deposits
+- Проанализировать структуру депозитного портфеля  
+- Оценить концентрацию крупных вкладчиков  
+- Исследовать валютную структуру портфеля  
+- Отслеживать динамику процентных начислений  
+- Определить потенциальные риски ликвидности  
 
 ---
 
-## Objectives
+## Цели проекта
 
-- Calculate key financial metrics:
-  - Attracted Funds
-  - Paid Funds
-  - Accrued Interest
-  - Debt Position
-  - Average Deposit Size
-
-- Implement daily interest accrual logic
-- Build multi-currency model (RUB, USD, EUR)
-- Implement dynamic currency conversion
-- Enable filtering by:
-  - Period (day-level granularity)
-  - Segment
-  - Industry
-  - City
-  - Reporting currency
+- Рассчитать общий объем депозитов  
+- Определить среднюю процентную ставку  
+- Проанализировать распределение вкладов по валютам  
+- Оценить концентрацию вкладчиков  
+- Исследовать сроки размещения депозитов  
+- Рассчитать начисленные проценты  
+- Выявить долю крупных вкладчиков  
 
 ---
 
-## Analytical Logic
+## Аналитическая логика
 
-### Interest Accrual
+### Процентные начисления
 
-Interest is calculated daily based on end-of-day balance.
+Расчет процентов по формуле:
 
-Formula:
-
-Daily Interest = Balance × Rate / 360
-
-Negative balances (overdraft) do not accrue interest.
+> Проценты = Сумма депозита × Ставка × (Срок / 365)
 
 ---
 
-### Currency Conversion
+### Конвертация валют
 
-- Historical exchange rates are loaded from Central Bank data
-- Conversion is performed using the latest available rate at the end of the selected period
-- Users can switch between:
-  - Original currencies
-  - Selected reporting currency
+Все валютные депозиты приведены к единой валюте для корректного сравнения и расчета общей структуры портфеля.
 
 ---
 
-## Dashboard Structure
+## Структура дашборда
 
-The report consists of four pages:
+Дашборд включает:
 
-1. Summary – Original Currencies
-2. Summary – Converted Currency
-3. Industry & City Breakdown – Original Currency
-4. Industry & City Breakdown – Converted Currency
-
----
-
-## Data Model
-
-The data model includes:
-
-- Transaction table (cash inflows and outflows)
-- Client registry with segment, industry and city
-- Currency exchange rate table
-- Calendar table for daily calculations
-
-The model enables:
-
-- Daily balance calculation
-- Interest accrual logic
-- Multi-currency aggregation
-- Dynamic currency conversion
+- KPI-блок (общий объем депозитов, средняя ставка, начисленные проценты)  
+- Распределение по валютам  
+- Анализ сроков размещения  
+- Концентрацию вкладчиков  
+- Динамику начислений  
 
 ---
 
-## Key Insights
+## Модель данных
 
-- Moscow holds the largest share of total deposits (17.6%)
-- Novosibirsk has the highest average deposit size
-- Top 3 industries account for 48% of total volume
-- Currency conversion significantly affects ranking positions
+Используемые поля:
 
-- Top-10 clients represent a highly concentrated share of the total deposit portfolio, indicating dependency on large clients
-- Portfolio concentration ratio increased toward the end of the observed period, signaling growing concentration risk
-- Interest income shows a steady upward trend, contributing positively to overall portfolio profitability
-- Average deposit size remained relatively stable with moderate fluctuations, indicating consistent client behavior
-- Inflows and outflows demonstrate cyclical patterns, suggesting seasonality in deposit activity
-- Currency conversion enables accurate cross-currency comparison and reveals the true structure of the consolidated portfolio
+- ID клиента  
+- Сумма депозита  
+- Валюта  
+- Процентная ставка  
+- Срок размещения  
+- Дата открытия  
 
 ---
 
+## Ключевые инсайты
 
-## Tech Stack
-
-- Power BI
-- Power Query
-- DAX
-- Data Modeling
-
----
-
-
-## Portfolio Concentration Analysis
-
-The dashboard allows analysis of deposit concentration by:
-
-- Client segment
-- Industry
-- City
-
-Users can identify segments or industries that form the largest share of the portfolio and monitor structural changes over time.
+- Значительная часть портфеля сосредоточена в одной валюте  
+- Наблюдается высокая концентрация крупных вкладчиков  
+- Депозиты с длительным сроком формируют большую долю начисленных процентов  
+- Средняя ставка варьируется в зависимости от срока размещения  
 
 ---
 
+## Технологический стек
 
-## Skills Demonstrated
-
-- Financial metric calculation
-- Daily interest accrual modeling
-- Multi-currency reporting
-- Dynamic currency conversion
-- Data transformation
-- Interactive dashboard design
+- Power BI  
+- DAX  
+- Моделирование данных  
+- Финансовая аналитика  
 
 ---
 
-## Dashboard Preview
+## Продемонстрированные навыки
 
-(Screenshots are available in the /screenshots folder)
+- Построение финансовых KPI  
+- Анализ концентрации  
+- Работа с валютной структурой  
+- Расчет процентных начислений  
+- Моделирование данных в BI  
+- Интерпретация финансовых показателей  
 
 ---
 
-## File
+## Дашборды
 
-The Power BI file (.pbix) is included in the repository.
+Изображения доступны в папке screenshots
 
 ---
 
+## Файлы
+
+Файл доступен для скачивания в репозитории
+
+---
