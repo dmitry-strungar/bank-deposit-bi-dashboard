@@ -106,17 +106,35 @@ The model enables:
 
 ## Key Insights
 
-- Moscow holds the largest share of total deposits (17.6%)
-- Novosibirsk has the highest average deposit size
-- Top 3 industries account for 48% of total volume
-- Currency conversion significantly affects ranking positions
+- **Moscow concentrates the largest share of total deposits (17.6%), indicating geographic portfolio dependency.**  
+  The portfolio demonstrates structural concentration in major metropolitan areas, increasing exposure to regional economic risks.
 
-- Top-10 clients represent a highly concentrated share of the total deposit portfolio, indicating dependency on large clients
-- Portfolio concentration ratio increased toward the end of the observed period, signaling growing concentration risk
-- Interest income shows a steady upward trend, contributing positively to overall portfolio profitability
-- Average deposit size remained relatively stable with moderate fluctuations, indicating consistent client behavior
-- Inflows and outflows demonstrate cyclical patterns, suggesting seasonality in deposit activity
-- Currency conversion enables accurate cross-currency comparison and reveals the true structure of the consolidated portfolio
+- **Novosibirsk shows the highest average deposit size, suggesting higher-value client concentration in this region.**  
+  This may reflect stronger corporate presence or large individual contracts in the city.
+
+- **Top 3 industries generate 48% of total deposit volume.**  
+  Such sector concentration increases sensitivity to industry-specific shocks and macroeconomic fluctuations.
+
+- **Currency conversion materially affects client and city rankings.**  
+  After consolidation into a single reporting currency, structural shifts become visible, highlighting hidden FX exposure risk.
+
+- **Top-10 clients form a highly concentrated share of the portfolio.**  
+  This dependency on large depositors increases liquidity and withdrawal risk in stress scenarios.
+
+- **Portfolio concentration ratio increased toward the end of the observed period.**  
+  The upward trend signals growing concentration risk and requires monitoring from a risk management perspective.
+
+- **Interest income demonstrates a stable upward trend.**  
+  Growing accrued interest positively impacts overall portfolio profitability and reflects expanding debt position.
+
+- **Average deposit size remains relatively stable with moderate fluctuations.**  
+  This indicates consistent client behavior and absence of aggressive short-term speculative inflows.
+
+- **Inflows and outflows exhibit cyclical dynamics.**  
+  The pattern suggests seasonal liquidity behavior, which should be considered in short-term liquidity planning.
+
+- **Multi-currency modeling enables accurate cross-currency aggregation.**  
+  Consolidation reveals the true economic structure of the portfolio and prevents distorted managerial conclusions.
 
 ---
 
