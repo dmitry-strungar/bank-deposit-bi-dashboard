@@ -137,7 +137,19 @@ The model enables:
   Consolidation reveals the true economic structure of the portfolio and prevents distorted managerial conclusions.
 
 ---
+## Business Value
+Identifies concentration risk within deposit portfolio and dependency on large clients  
+Provides cross-currency analysis for accurate portfolio structure evaluation  
+Tracks interest income dynamics and overall portfolio profitability  
+Supports risk management and strategic financial planning  
 
+## Stakeholders
+Risk Management Team  
+Finance Department  
+Treasury  
+Top Management  
+
+---
 
 ## Tech Stack
 
