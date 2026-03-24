@@ -79,10 +79,10 @@ Negative balances (overdraft) do not accrue interest.
 
 The report consists of four pages:
 
-1. Summary – Original Currencies
-2. Summary – Converted Currency
-3. Industry & City Breakdown – Original Currency
-4. Industry & City Breakdown – Converted Currency
+1. Summary - Original Currencies
+2. Summary - Converted Currency
+3. Industry & City Breakdown - Original Currency
+4. Industry & City Breakdown - Converted Currency
 
 ---
 
