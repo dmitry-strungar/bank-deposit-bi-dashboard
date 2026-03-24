@@ -193,4 +193,3 @@ Daily Interest = Balance × Rate / 360
 
 Файл Power BI (.pbix) включен в репозиторий.
 
----
