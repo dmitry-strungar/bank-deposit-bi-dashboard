@@ -79,10 +79,10 @@ Daily Interest = Balance × Rate / 360
 
 Отчет состоит из четырех страниц:
 
-1. Summary – Original Currencies
-2. Summary – Converted Currency
-3. Industry & City Breakdown – Original Currency
-4. Industry & City Breakdown – Converted Currency
+1. Summary - Original Currencies
+2. Summary - Converted Currency
+3. Industry & City Breakdown - Original Currency
+4. Industry & City Breakdown - Converted Currency
 
 ---
 
